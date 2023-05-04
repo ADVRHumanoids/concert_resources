@@ -185,7 +185,7 @@
           }
         },
         "xbot_gz": {
-          "profile": "small_mot"
+          "profile": "medium_mot"
         }
       }
     }
