@@ -1,0 +1,94 @@
+{
+  "header": {
+    "ID": "484",
+    "name": "concert_link_straight_40",
+    "date":"2022-11-16",
+    "author": "EdaordoRomiti",
+    "affiliation": "IIT",
+    "email": "edoardo.romiti@iit.it",
+    "cost": 0,
+    "type": "link"
+  },
+  "bodies": [
+    {
+      "ID": "484_link",
+      "mass": 2.0,
+      "inertia": [ 
+        [2.4e-01,   0.0, 0.0],
+        [0.0,  2.4e-01,  0.0],
+        [0.0, 0.0,  4.5e-03]
+      ],
+      "r_com": [0.0, 0.0, 0.3],
+      "visual": [
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.6,
+            "color": "grey"
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.3],
+            [0,0,0,1]
+          ]
+        }
+      ],
+      "collision": [
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.6
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.3],
+            [0,0,0,1]
+          ]
+        }
+      ],
+      "connectors": [
+        {
+          "ID": "484_connector_1",
+          "pose": [
+            [1, 0,  0,  0.0],
+            [0, 1,  0,  0.0],
+            [0, 0,  1,  0.0],
+            [0, 0,  0,  1]
+          ],
+          "gender": "f",
+          "type": "clamp",
+          "size": "big"
+        },
+        {
+          "ID": "484_connector_2",
+          "pose": [
+            [1, 0,  0,  0.0],
+            [0, 1,  0,  0.0],
+            [0, 0,  1,  0.6],
+            [0, 0,  0,  1]
+          ],
+          "gender": "m",
+          "type": "clamp",
+          "size": "big"
+        }
+      ],
+      "gazebo": [
+        {
+          "mu1": 0.2,
+          "mu2": 0.2,
+          "kp": 100000000.0,
+          "kd": 1.0,
+          "maxVel": 0.0,
+          "minDepth": 0.0001,
+          "material": "Gazebo/Grey",
+          "selfCollide": true
+        }
+      ]
+    }
+  ],
+  "joints": []
+}
