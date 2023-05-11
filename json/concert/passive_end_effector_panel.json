@@ -7,7 +7,7 @@
       "affiliation": "IIT",
       "email": "edoardo.romiti@iit.it",
       "cost": 0,
-      "type": "tool_exchanger"
+      "type": "end_effector"
     },
     "bodies": [
       {
@@ -18,7 +18,7 @@
           [5.6520001e-06,  5.7244771e-03,  1.8195325e-05],
           [1.5027493e-04,  1.8195325e-05,  2.8905654e-03]
         ],
-        "r_com": [0.020, 0.0, 0.051],
+        "r_com": [-0.020, 0.0, 0.051],
         "visual": [
           {
             "type":"mesh",
@@ -27,7 +27,7 @@
               "scale": [0.001, 0.001, 0.001]
             },
             "pose": [
-              [1,0,0,0],
+              [1,0,0,-0.0245],
               [0,1,0,0],
               [0,0,1,0],
               [0,0,0,1]
@@ -39,11 +39,11 @@
           {
             "type":"mesh",
             "parameters": {
-              "file": "package://concert_resources/models/modular/meshes/concert/simple/passive_end_effector_panel",
+              "file": "package://concert_resources/models/modular/meshes/concert/simple/passive_end_effector_panel.stl",
               "scale": [0.001, 0.001, 0.001]
             },
             "pose": [
-              [1,0,0,0],
+              [1,0,0,-0.0245],
               [0,1,0,0],
               [0,0,1,0],
               [0,0,0,1]
