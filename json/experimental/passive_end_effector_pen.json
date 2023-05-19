@@ -1,0 +1,96 @@
+{
+    "header": {
+      "ID": "364",
+      "name": "passive_end_effector_pen",
+      "date":"2022-11-16",
+      "author": "EdaordoRomiti",
+      "affiliation": "IIT",
+      "email": "edoardo.romiti@iit.it",
+      "cost": 0,
+      "type": "end_effector"
+    },
+    "bodies": [
+      {
+        "ID": "364_link",
+        "mass": 0.23,
+        "inertia": [ 
+          [0.0005000625000000001, 0.0, 0.0],
+          [0.0, 0.0005000625000000001, 0.0],
+          [0.0, 0.0, 5.4000000000000005e-05]
+        ],
+        "r_com": [0.0, 0.0, 0.015],
+        "visual": [
+          {
+            "type":"cylinder",
+            "parameters": {
+              "radius": 0.02,
+              "length": 0.135
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0.0675],
+              [0,0,0,1]
+            ],
+            "color": "grey"
+          }
+        ],
+        "collision": [
+          {
+            "type":"cylinder",
+            "parameters": {
+              "radius": 0.02,
+              "length": 0.135
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0.0675],
+              [0,0,0,1]
+            ],
+            "color": "grey"
+          }
+        ],
+        "connectors": [
+          {
+            "ID": "364_connector_1",
+            "pose": [
+              [1, 0,  0,  0.0],
+              [0, 1,  0,  0.0],
+              [0, 0,  1,  0.0],
+              [0, 0,  0,  1]
+            ],
+            "gender": "f",
+            "type": "clamp",
+            "size": "big"
+          },
+          {
+            "ID": "364_connector_2",
+            "pose": [
+              [1, 0,  0,  0.0],
+              [0, 1,  0,  0.0],
+              [0, 0,  1,  0.135],
+              [0, 0,  0,  1]
+            ],
+            "gender": "e",
+            "type": "tcp",
+            "size": "big"
+          }
+        ],
+        "gazebo": [
+          {
+            "mu1": 0.2,
+            "mu2": 0.2,
+            "kp": 100000000.0,
+            "kd": 1.0,
+            "maxVel": 0.0,
+            "minDepth": 0.0001,
+            "material": "Gazebo/Grey",
+            "selfCollide": true
+          }
+        ]
+      }
+    ],
+    "joints": []
+  }
+  
