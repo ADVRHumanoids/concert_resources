@@ -185,7 +185,10 @@
           }
         },
         "xbot_gz": {
-          "profile": "medium_mot"
+          "pid": {
+            "p": 500.0,
+            "d": 30.0
+          }
         }
       }
     }
