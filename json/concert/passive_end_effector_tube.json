@@ -62,7 +62,7 @@
             ],
             "gender": "f",
             "type": "clamp",
-            "size": "big"
+            "size": "large"
           },
           {
             "ID": "354_connector_2",
@@ -74,7 +74,7 @@
             ],
             "gender": "e",
             "type": "tcp",
-            "size": "big"
+            "size": "large"
           }
         ],
         "gazebo": [
