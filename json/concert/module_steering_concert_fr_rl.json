@@ -181,7 +181,7 @@
           "control_mode": "impedance_d4",
           "pid": {
             "position": [1000.0, 0.0, 30.0],
-            "impedance": [500.0, 20.0, 1.0, 0.025, 0.99]
+            "impedance": [500.0, 40.0, 1.0, 0.007, 0.95]
           }
         },
         "xbot_gz": {
