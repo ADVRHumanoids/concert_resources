@@ -25,7 +25,9 @@
           "parameters": {
             "radius": 0.0675,
             "length": 0.07,
-            "color": "grey"
+            "color": {
+              "material_name": "grey"
+            }
           },
           "pose": [
             [1,0,0,0],
@@ -38,7 +40,9 @@
           "type": "sphere",
           "parameters": {
             "radius": 0.0675,
-            "color": "grey"
+            "color": {
+              "material_name": "grey"
+            }
           },
           "pose": [
             [1,0,0,0],
@@ -52,7 +56,9 @@
           "parameters": {
             "radius": 0.0675,
             "length": 0.35,
-            "color": "grey"
+            "color": {
+              "material_name": "grey"
+            }
           },
           "pose": [
             [0,0,-1,-0.175],
@@ -67,8 +73,7 @@
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.07,
-            "color": "grey"
+            "length": 0.07
           },
           "pose": [
             [1,0,0,0],
@@ -80,8 +85,7 @@
         {
           "type": "sphere",
           "parameters": {
-            "radius": 0.0675,
-            "color": "grey"
+            "radius": 0.0675
           },
           "pose": [
             [1,0,0,0],
@@ -94,8 +98,7 @@
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.35,
-            "color": "grey"
+            "length": 0.35
           },
           "pose": [
             [0,0,-1,-0.175],

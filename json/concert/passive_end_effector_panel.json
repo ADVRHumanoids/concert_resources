@@ -24,15 +24,17 @@
             "type":"mesh",
             "parameters": {
               "file": "package://concert_resources/models/modular/meshes/concert/passive_end_effector_panel.stl",
-              "scale": [0.001, 0.001, 0.001]
+              "scale": [0.001, 0.001, 0.001],
+              "color": {
+              "material_name": "grey"
+            }
             },
             "pose": [
               [1,0,0,-0.0245],
               [0,1,0,0],
               [0,0,1,0],
               [0,0,0,1]
-            ],
-            "color": "grey"
+            ]
           }
         ],
         "collision": [
@@ -47,8 +49,7 @@
               [0,1,0,0],
               [0,0,1,0],
               [0,0,0,1]
-            ],
-            "color": "grey"
+            ]
           }
         ],
         "connectors": [

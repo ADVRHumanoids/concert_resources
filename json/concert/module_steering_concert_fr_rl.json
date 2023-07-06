@@ -25,7 +25,9 @@
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_steering_connection_module.stl",
             "scale": [0.001, 0.001, 0.001],
-            "color": "blue"
+            "color": {
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
@@ -92,7 +94,9 @@
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_steering_module_frame.stl",
             "scale": [0.001, 0.001, 0.001],
-            "color": "blue"
+            "color": {
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],

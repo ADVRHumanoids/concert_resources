@@ -25,7 +25,9 @@
           "parameters": {
             "radius": 0.0675,
             "length": 0.6,
-            "color": "grey"
+            "color": {
+              "material_name": "grey"
+            }
           },
           "pose": [
             [1,0,0,0],

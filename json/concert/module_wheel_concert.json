@@ -48,7 +48,9 @@
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_wheel.stl",
             "scale": [0.001, 0.001, 0.001],
-            "color": "black"
+            "color": {
+              "material_name": "black"
+            }
           },
           "pose": [
             [1,0,0,0],

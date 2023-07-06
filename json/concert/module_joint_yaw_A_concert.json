@@ -25,7 +25,9 @@
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_yaw-base.stl",
             "scale": [0.001, 0.001, 0.001],
-            "color": "blue"
+            "color": {
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
@@ -72,7 +74,7 @@
           "kd": 1.0,
           "maxVel": 0.0,
           "minDepth": 0.0001,
-          "material": "Gazebo/Blue",
+          "material": "Gazebo/Blue", 
           "selfCollide": true
         }
       ]
@@ -92,7 +94,9 @@
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_yaw-link.stl",
             "scale": [0.001, 0.001, 0.001],
-            "color": "blue"
+            "color": {
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
