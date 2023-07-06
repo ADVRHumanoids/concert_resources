@@ -26,6 +26,7 @@
             "file": "package://concert_resources/models/modular/meshes/concert/concert_elbow-base.stl",
             "scale": [0.001, 0.001, 0.001],
             "color": {
+              "material_name": "concert_blue",
               "rgba": [0.149, 0.259, 0.51, 1]
             }
           },
@@ -95,6 +96,7 @@
             "file": "package://concert_resources/models/modular/meshes/concert/concert_elbow-link.stl",
             "scale": [0.001, 0.001, 0.001],
             "color": {
+              "material_name": "concert_blue",
               "rgba": [0.149, 0.259, 0.51, 1]
             }
           },
