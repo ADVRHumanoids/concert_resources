@@ -26,7 +26,7 @@
           ],
           "gender": "f",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [ 
@@ -47,15 +47,17 @@
           "type":"mesh",
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_wheel.stl",
-            "scale": [0.001, 0.001, 0.001]
+            "scale": [0.001, 0.001, 0.001],
+            "color": {
+              "material_name": "black"
+            }
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
             [0,0,1,0],
             [0,0,0,1]
-          ],
-          "color": "black"
+          ]
         }
       ],
       "collision": [
@@ -84,7 +86,7 @@
           ],
           "gender": "m",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [

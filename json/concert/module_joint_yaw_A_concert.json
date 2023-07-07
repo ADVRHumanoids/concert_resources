@@ -1,7 +1,7 @@
 {
   "header": {
     "ID": "14",
-    "name": "concert_yaw_joint",
+    "name": "concert_yaw_joint_A",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
@@ -24,15 +24,18 @@
           "type":"mesh",
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_yaw-base.stl",
-            "scale": [0.001, 0.001, 0.001]
+            "scale": [0.001, 0.001, 0.001],
+            "color": {
+              "material_name": "concert_blue",
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
             [0,0,1,0],
             [0,0,0,1]
-          ],
-          "color": "blue"
+          ]
         }
       ],
       "collision": [
@@ -61,7 +64,7 @@
           ],
           "gender": "f",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [
@@ -72,7 +75,7 @@
           "kd": 1.0,
           "maxVel": 0.0,
           "minDepth": 0.0001,
-          "material": "Gazebo/Blue",
+          "material": "Gazebo/Blue", 
           "selfCollide": true
         }
       ]
@@ -91,15 +94,18 @@
           "type":"mesh",
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_yaw-link.stl",
-            "scale": [0.001, 0.001, 0.001]
+            "scale": [0.001, 0.001, 0.001],
+            "color": {
+              "material_name": "concert_blue",
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
             [0,0,1,0],
             [0,0,0,1]
-          ],
-          "color": "blue"
+          ]
         }
       ],
       "collision": [
@@ -128,7 +134,7 @@
           ],
           "gender": "m",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [
@@ -168,7 +174,7 @@
         "positionUpper": 3.0,
         "positionLower": -3.0,
         "peak_torque": 460.0,
-        "velocity": 1.77,
+        "velocity": 2.14,
         "acceleration": null
       },
       "gear_ratio": 160.0,
@@ -181,11 +187,14 @@
           "control_mode": "impedance_d4",
           "pid": {
             "position": [1000.0, 0.0, 30.0],
-            "impedance": [500.0, 20.0, 1.0, 0.005, 0.99]
+            "impedance": [1000.0, 80.0, 1.0, 0.005, 0.95]
           }
         },
         "xbot_gz": {
-          "profile": "small_mot"
+          "pid": {
+            "p": 1000.0,
+            "d": 60.0
+          }
         }
       }
     }

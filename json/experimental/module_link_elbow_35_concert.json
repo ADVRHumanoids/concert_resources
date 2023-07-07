@@ -1,0 +1,152 @@
+{
+  "header": {
+    "ID": "494",
+    "name": "concert_link_elbow_35",
+    "date":"2022-11-16",
+    "author": "EdaordoRomiti",
+    "affiliation": "IIT",
+    "email": "edoardo.romiti@iit.it",
+    "cost": 0,
+    "type": "link"
+  },
+  "bodies": [
+    {
+      "ID": "494_link",
+      "mass": 1.75,
+      "inertia": [ 
+        [4e-03,   0.0, 0.0],
+        [0.0,  9.5e-02,  0.0],
+        [0.0, 0.0,  9.5e-02]
+      ],
+      "r_com": [-0.175, 0.0, 0.035],
+      "visual": [
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.07,
+            "color": {
+              "material_name": "grey"
+            }
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.035],
+            [0,0,0,1]
+          ]
+        },
+        {
+          "type": "sphere",
+          "parameters": {
+            "radius": 0.0675,
+            "color": {
+              "material_name": "grey"
+            }
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.07],
+            [0,0,0,1]
+          ]
+        },
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.35,
+            "color": {
+              "material_name": "grey"
+            }
+          },
+          "pose": [
+            [0,0,-1,-0.175],
+            [0,1,0,0],
+            [1,0,0,0.07],
+            [0,0,0,1]
+          ]
+        }
+      ],
+      "collision": [
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.07
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.035],
+            [0,0,0,1]
+          ]
+        },
+        {
+          "type": "sphere",
+          "parameters": {
+            "radius": 0.0675
+          },
+          "pose": [
+            [1,0,0,0],
+            [0,1,0,0],
+            [0,0,1,0.07],
+            [0,0,0,1]
+          ]
+        },
+        {
+          "type":"cylinder",
+          "parameters": {
+            "radius": 0.0675,
+            "length": 0.35
+          },
+          "pose": [
+            [0,0,-1,-0.175],
+            [0,1,0,0],
+            [1,0,0,0.07],
+            [0,0,0,1]
+          ]
+        }
+      ],
+      "connectors": [
+        {
+          "ID": "494_connector_1",
+          "pose": [
+            [1, 0,  0,  0.0],
+            [0, 1,  0,  0.0],
+            [0, 0,  1,  0.0],
+            [0, 0,  0,  1]
+          ],
+          "gender": "f",
+          "type": "clamp",
+          "size": "large"
+        },
+        {
+          "ID": "494_connector_2",
+          "pose": [
+            [0, 0,  -1,  -0.35],
+            [0, 1,  0,  0],
+            [1, 0,  0,  0.07],
+            [0, 0,  0,  1]
+          ],
+          "gender": "m",
+          "type": "clamp",
+          "size": "large"
+        }
+      ],
+      "gazebo": [
+        {
+          "mu1": 0.2,
+          "mu2": 0.2,
+          "kp": 100000000.0,
+          "kd": 1.0,
+          "maxVel": 0.0,
+          "minDepth": 0.0001,
+          "material": "Gazebo/Grey",
+          "selfCollide": true
+        }
+      ]
+    }
+  ],
+  "joints": []
+}

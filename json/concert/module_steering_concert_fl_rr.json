@@ -1,7 +1,7 @@
 {
   "header": {
     "ID": "18",
-    "name": "concert_steering_module",
+    "name": "concert_steering_module_fl_rr",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
@@ -13,7 +13,7 @@
     {
       "ID": "18_proximal",
       "mass": 1.1813661,
-      "inertia": [ 
+      "inertia": [
         [2.6106263e-03,   0.0,            1.7928188e-04],
         [0.0,             2.7438806e-03,  0.0],
         [1.7928188e-04,   0.0,            2.5223123e-03]
@@ -24,15 +24,18 @@
           "type":"mesh",
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_steering_connection_module.stl",
-            "scale": [0.001, 0.001, 0.001]
+            "scale": [0.001, 0.001, 0.001],
+            "color": {
+              "material_name": "concert_blue",
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
             [0,0,1,0],
             [0,0,0,1]
-          ],
-          "color": "blue"
+          ]
         }
       ],
       "collision": [
@@ -61,7 +64,7 @@
           ],
           "gender": "f",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [
@@ -85,21 +88,24 @@
         [-3.6685350e-02,  5.2073797e-01,  -2.6667139e-03],
         [2.5595962e-02,   -2.6667139e-03,  6.9985532e-01]
       ],
-      "r_com": [0.090718433, 0.0, -0.22670598],
+      "r_com": [0.090718433, 0.0, 0.22670598],
       "visual": [
         {
           "type":"mesh",
           "parameters": {
             "file": "package://concert_resources/models/modular/meshes/concert/concert_steering_module_frame.stl",
-            "scale": [0.001, 0.001, 0.001]
+            "scale": [0.001, 0.001, 0.001],
+            "color": {
+              "material_name": "concert_blue",
+              "rgba": [0.149, 0.259, 0.51, 1]
+            }
           },
           "pose": [
             [1,0,0,0],
             [0,-1,0,0],
             [0,0,-1,0],
             [0,0,0,1]
-          ],
-          "color": "blue"
+          ]
         }
       ],
       "collision": [
@@ -128,7 +134,7 @@
           ],
           "gender": "m",
           "type": "clamp",
-          "size": "big"
+          "size": "large"
         }
       ],
       "gazebo": [
@@ -181,7 +187,7 @@
           "control_mode": "impedance_d4",
           "pid": {
             "position": [1000.0, 0.0, 30.0],
-            "impedance": [500.0, 20.0, 1.0, 0.025, 0.99]
+            "impedance": [500.0, 40.0, 1.0, 0.007, 0.95]
           }
         },
         "xbot_gz": {
