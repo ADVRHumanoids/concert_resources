@@ -128,7 +128,7 @@ xbot_gz:
     p: 0
     d: 50
 
-size: "big"
+flange_size: "big"
 
 CentAcESC:
   control_mode: 71_motor_vel_ctrl #pos_3b #impedance_d4 #idle
