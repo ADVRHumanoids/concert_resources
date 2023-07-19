@@ -118,7 +118,7 @@ collision:
             roll: 0.0
             pitch: 0.0
             yaw: 0.0
-size: big
+flange_size: big
 CentAcESC:
     control_mode: impedance_d4
     sign: 1

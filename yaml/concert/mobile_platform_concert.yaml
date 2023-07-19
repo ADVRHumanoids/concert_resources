@@ -49,7 +49,7 @@ dynamics:
             x: 0.012213513
             y: 0.0
             z: -0.21761073
-size: big
+flange_size: big
 type: mobile_base
 visual:
     body_1:
