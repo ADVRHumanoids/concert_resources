@@ -159,7 +159,7 @@
           "motor_has_brake": true,
           "control_mode": "71_motor_vel_ctrl",
           "pid": {
-            "velocity": [5.0, 0.0, 0.0]
+            "velocity": [5.0, 8.0, 0.0]
           }
         },
         "xbot_gz": {
