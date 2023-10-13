@@ -1,13 +1,16 @@
 {
   "header": {
-    "ID": "494",
+    "ID": "4940",
     "name": "concert_link_elbow_35",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "link"
+    "type": "link",
+    "family": "alberoboticsGenB",
+    "label": "Elbow Link 35 cm",
+    "disabled": true
   },
   "bodies": [
     {

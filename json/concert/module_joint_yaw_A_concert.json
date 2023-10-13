@@ -1,13 +1,16 @@
 {
   "header": {
-    "ID": "14",
+    "ID": "1440",
     "name": "concert_yaw_joint_A",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "joint"
+    "type": "joint",
+    "family": "alberoboticsGenB",
+    "label": "Straight Joint A",
+    "disabled": false
   },
   "bodies": [
     {

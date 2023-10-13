@@ -1,13 +1,16 @@
 {
     "header": {
-      "ID": "334",
+      "ID": "3340",
       "name": "concert_drill_module",
       "date":"2022-11-16",
       "author": "EdaordoRomiti",
       "affiliation": "IIT",
       "email": "edoardo.romiti@iit.it",
       "cost": 0,
-      "type": "drill"
+      "type": "drill",
+      "family": "alberoboticsGenB",
+      "label": "Drill",
+      "disabled": false
     },
     "bodies": [
       {

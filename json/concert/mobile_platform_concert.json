@@ -1,13 +1,16 @@
 {
   "header": {
-    "ID": "23",
+    "ID": "2300",
     "name": "concert_mobile_platform",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "mobile_base"
+    "type": "mobile_base",
+    "family": "alberoboticsGenB",
+    "label": "Mobile Platform",
+    "disabled": false
   },
   "bodies": [
     {

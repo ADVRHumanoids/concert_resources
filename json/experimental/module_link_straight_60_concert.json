@@ -1,13 +1,16 @@
 {
   "header": {
-    "ID": "484",
-    "name": "concert_link_straight_40",
+    "ID": "4840",
+    "name": "concert_link_straight_60",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "link"
+    "type": "link",
+    "family": "alberoboticsGenB",
+    "label": "Straight Link 60 cm",
+    "disabled": true
   },
   "bodies": [
     {

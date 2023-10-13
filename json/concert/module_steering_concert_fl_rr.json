@@ -1,13 +1,16 @@
 {
   "header": {
-    "ID": "18",
+    "ID": "1850",
     "name": "concert_steering_module_fl_rr",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "joint"
+    "type": "joint",
+    "family": "alberoboticsGenB",
+    "label": "Steering Joint Front-Left/Rear-Right",
+    "disabled": false
   },
   "bodies": [
     {
