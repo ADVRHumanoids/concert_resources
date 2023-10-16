@@ -1,7 +1,7 @@
 {
   "header": {
     "ID": "1440",
-    "name": "concert_yaw_joint_A",
+    "name": "concert/module_joint_yaw_A_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
