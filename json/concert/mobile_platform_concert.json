@@ -14,7 +14,7 @@
   },
   "bodies": [
     {
-      "ID": "23_mobile_base",
+      "ID": "2300_mobile_base",
       "mass": 127.57599,
       "inertia": [
         [1.9025397e+01,   -6.2823044e-01, -6.4261485e-02],
@@ -57,7 +57,7 @@
       ],
       "connectors": [
         {
-          "ID": "23_connector_1",
+          "ID": "2300_connector_1",
           "pose": [
             [0, 0,  1,  0.37925],
             [0, -1, 0,  0.31250],
@@ -69,7 +69,7 @@
           "size": "large"
         },
         {
-          "ID": "23_connector_2",
+          "ID": "2300_connector_2",
           "pose": [
             [0, 0,  1,  0.37925],
             [0, -1, 0,  -0.31250],
@@ -81,7 +81,7 @@
           "size": "large"
         },
         {
-          "ID": "23_connector_3",
+          "ID": "2300_connector_3",
           "pose": [
             [0, 0,  -1, -0.37925],
             [0, 1,  0,  0.31250],
@@ -93,7 +93,7 @@
           "size": "large"
         },
         {
-          "ID": "23_connector_4",
+          "ID": "2300_connector_4",
           "pose": [
             [0, 0,  -1, -0.37925],
             [0, 1,  0,  -0.31250],
@@ -105,7 +105,7 @@
           "size": "large"
         },
         {
-          "ID": "23_connector_5",
+          "ID": "2300_connector_5",
           "pose": [
             [-1,  0,    0,  0.2 ],
             [0,   -1,   0,  0.0 ],
@@ -117,7 +117,7 @@
           "size": "large"
         },
         {
-          "ID": "23_connector_base",
+          "ID": "2300_connector_base",
           "pose": [
             [1,  0,   0,  0.0],
             [0, -1,   0,  0.0],
