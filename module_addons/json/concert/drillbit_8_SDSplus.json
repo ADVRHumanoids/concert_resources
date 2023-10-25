@@ -1,0 +1,24 @@
+{
+    "header": {
+        "ID": "0002",
+        "name": "concert/drillbit_12_SDSmax.json",
+        "date":"2022-11-16",
+        "author": "EdaordoRomiti",
+        "affiliation": "IIT",
+        "email": "edoardo.romiti@iit.it",
+        "cost": 0,
+        "type": "drillbit",
+        "family": "alberoboticsGenB",
+        "label": "Drillbit 12mm SDSmax",
+        "disabled": false
+    },
+    "parameters": {
+        "length": 0.249,
+        "l_adapt_min": 0.110, 
+        "l_adapt_max": 0.154,
+        "l_drillbit_min": 0.123,
+        "l_drillbit_max": 0.126,
+        "radius": 0.008,
+        "mass": 0.660
+    }
+}
