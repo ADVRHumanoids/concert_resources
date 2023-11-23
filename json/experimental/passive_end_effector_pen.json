@@ -10,6 +10,7 @@
       "type": "end_effector",
       "family": "alberoboticsGenB",
       "label": "Passive End-Effector (pen)",
+      "addons": [],
       "disabled": true
     },
     "bodies": [

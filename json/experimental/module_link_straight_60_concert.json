@@ -10,6 +10,7 @@
     "type": "link",
     "family": "alberoboticsGenB",
     "label": "Straight Link 60 cm",
+    "addons": [],
     "disabled": true
   },
   "bodies": [

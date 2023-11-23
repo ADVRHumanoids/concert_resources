@@ -10,6 +10,7 @@
     "type": "joint",
     "family": "alberoboticsGenB",
     "label": "Elbow Joint A",
+    "addons": [],
     "disabled": false
   },
   "bodies": [

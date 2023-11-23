@@ -10,6 +10,7 @@
     "type": "joint",
     "family": "alberoboticsGenB",
     "label": "Steering Joint Front-Left/Rear-Right",
+    "addons": [],
     "disabled": false
   },
   "bodies": [

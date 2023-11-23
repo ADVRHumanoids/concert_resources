@@ -10,6 +10,7 @@
     "type": "joint",
     "family": "alberoboticsGenB",
     "label": "Straight Joint A",
+    "addons": [],
     "disabled": false
   },
   "bodies": [

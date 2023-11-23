@@ -10,6 +10,7 @@
     "type": "wheel",
     "family": "alberoboticsGenB",
     "label": "Wheel Module",
+    "addons": [],
     "disabled": false
   },
   "bodies": [

@@ -10,6 +10,7 @@
     "type": "link",
     "family": "alberoboticsGenB",
     "label": "Straight Elbow 45°",
+    "addons": [],
     "disabled": false
   },
   "bodies": [

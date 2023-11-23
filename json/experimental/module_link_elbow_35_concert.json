@@ -10,6 +10,7 @@
     "type": "link",
     "family": "alberoboticsGenB",
     "label": "Elbow Link 35 cm",
+    "addons": [],
     "disabled": true
   },
   "bodies": [

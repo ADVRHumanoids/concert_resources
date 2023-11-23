@@ -10,6 +10,7 @@
       "type": "end_effector",
       "family": "alberoboticsGenB",
       "label": "Passive End-Effector (Tube)",
+      "addons": [],
       "disabled": false
     },
     "bodies": [

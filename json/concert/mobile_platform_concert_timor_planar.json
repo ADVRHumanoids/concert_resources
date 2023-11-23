@@ -10,6 +10,7 @@
     "type": "mobile_base",
     "family": "alberoboticsGenB",
     "label": "Mobile Platform (simplified)",
+    "addons": [],
     "disabled": true
   },
   "bodies": [
