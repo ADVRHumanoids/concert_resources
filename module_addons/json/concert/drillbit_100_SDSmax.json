@@ -1,7 +1,7 @@
 {
     "header": {
         "ID": "0003",
-        "name": "concert/drillbit_68_SDSmax.json",
+        "name": "concert/drillbit_100_SDSmax.json",
         "date":"2022-11-16",
         "author": "EdaordoRomiti",
         "affiliation": "IIT",
@@ -9,7 +9,7 @@
         "cost": 0,
         "type": "drillbit",
         "family": "alberoboticsGenB",
-        "label": "Drillbit 68mm SDSmax",
+        "label": "Drillbit 100mm SDSmax",
         "disabled": false
     },
     "parameters": {
