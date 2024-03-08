@@ -1,7 +1,7 @@
 {
     "header": {
         "ID": "0002",
-        "name": "concert/drillbit_20_SDSmax.json",
+        "name": "concert/drillbit_20_SDSplus.json",
         "date":"2022-11-16",
         "author": "EdaordoRomiti",
         "affiliation": "IIT",
@@ -9,7 +9,7 @@
         "cost": 0,
         "type": "drillbit",
         "family": "alberoboticsGenB",
-        "label": "Drillbit 20mm SDSmax",
+        "label": "Drillbit 20mm SDSplus",
         "disabled": false
     },
     "parameters": {
