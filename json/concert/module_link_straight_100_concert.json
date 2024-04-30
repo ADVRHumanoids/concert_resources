@@ -1,7 +1,7 @@
 {
   "header": {
-    "ID": "4540",
-    "name": "concert/module_link_straight_50_concert.json",
+    "ID": "4340",
+    "name": "concert/module_link_straight_100_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
@@ -9,26 +9,26 @@
     "cost": 0,
     "type": "link",
     "family": "alberoboticsGenB",
-    "label": "Straight Link 50 cm",
+    "label": "Straight Link 10 cm",
     "addons": [],
     "disabled": false
   },
   "bodies": [
     {
-      "ID": "454_link",
-      "mass": 1.6377171,
+      "ID": "434_link",
+      "mass": 8.9268518e-01,
       "inertia": [ 
-        [1.5464024e-01,   -3.1348037e-06,  -3.1136436e-06],
-        [-3.1348037e-06,   1.5465326e-01,  0.0],
-        [-3.1136436e-06,  0.0,  3.9667989e-03]
+        [2.0334531e-03,   -3.1356498e-06, -3.3192221e-07],
+        [-3.1356498e-06,  2.0464712e-03,  -2.6168746e-07],
+        [-3.3192221e-07,  -2.6168746e-07,  1.7627684e-03]
       ],
-      "r_com": [0.0, 0.0, 0.241],
+      "r_com": [0.0, 0.0, 0.044],
       "visual": [
         {
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.5,
+            "length": 0.1,
             "color": {
               "material_name": "grey"
             }
@@ -36,7 +36,7 @@
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
-            [0,0,1,0.25],
+            [0,0,1,0.05],
             [0,0,0,1]
           ]
         }
@@ -46,19 +46,19 @@
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.5
+            "length": 0.1
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
-            [0,0,1,0.25],
+            [0,0,1,0.05],
             [0,0,0,1]
           ]
         }
       ],
       "connectors": [
         {
-          "ID": "454_connector_1",
+          "ID": "434_connector_1",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
@@ -70,11 +70,11 @@
           "size": "large"
         },
         {
-          "ID": "454_connector_2",
+          "ID": "434_connector_2",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
-            [0, 0,  1,  0.5],
+            [0, 0,  1,  0.1],
             [0, 0,  0,  1]
           ],
           "gender": "m",
