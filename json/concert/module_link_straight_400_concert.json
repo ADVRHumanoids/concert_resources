@@ -1,24 +1,28 @@
 {
   "header": {
-    "ID": "474",
-    "name": "concert_link_straight_40",
+    "ID": "4640",
+    "name": "concert/module_link_straight_400_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "link"
+    "type": "link",
+    "family": "alberoboticsGenB",
+    "label": "Straight Link 40 cm",
+    "addons": [],
+    "disabled": false
   },
   "bodies": [
     {
-      "ID": "474_link",
-      "mass": 1.75,
+      "ID": "464_link",
+      "mass": 1.885,
       "inertia": [ 
-        [9.5e-02,   0.0, 0.0],
-        [0.0,  9.5e-02,  0.0],
+        [1e-01,   0.0, 0.0],
+        [0.0,  1e-01,  0.0],
         [0.0, 0.0,  4e-03]
       ],
-      "r_com": [0.0, 0.0, 0.2],
+      "r_com": [0.0, 0.0, 0.183],
       "visual": [
         {
           "type":"cylinder",
@@ -54,7 +58,7 @@
       ],
       "connectors": [
         {
-          "ID": "474_connector_1",
+          "ID": "464_connector_1",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
@@ -66,7 +70,7 @@
           "size": "large"
         },
         {
-          "ID": "474_connector_2",
+          "ID": "464_connector_2",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],

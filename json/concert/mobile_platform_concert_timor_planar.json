@@ -1,13 +1,17 @@
 {
   "header": {
-    "ID": "23_planar",
-    "name": "concert_mobile_platform_simplified",
+    "ID": "2300_planar",
+    "name": "concert/mobile_platform_concert_timor_planar.json",
     "date":"2023-03-07",
     "author": "JonathanKuelz",
     "affiliation": "TUM",
     "email": "jonathan.kuelz@tum.de",
     "cost": 0,
-    "type": "mobile_base"
+    "type": "mobile_base",
+    "family": "alberoboticsGenB",
+    "label": "Mobile Platform (simplified)",
+    "addons": [],
+    "disabled": true
   },
   "bodies": [
     {

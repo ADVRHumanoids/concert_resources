@@ -1,13 +1,17 @@
 {
   "header": {
-    "ID": "16",
-    "name": "concert_elbow_joint_A",
+    "ID": "1640",
+    "name": "concert/module_joint_elbow_A_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "joint"
+    "type": "joint",
+    "family": "alberoboticsGenB",
+    "label": "Elbow Joint A",
+    "addons": [],
+    "disabled": false
   },
   "bodies": [
     {
@@ -171,8 +175,8 @@
         [0.0,   0.0,    0.0,    1.0     ]
       ],
       "limits": {
-        "positionUpper": 3.0,
-        "positionLower": -3.0,
+        "positionUpper": 2.75,
+        "positionLower": -2.75,
         "peak_torque": 460.0,
         "velocity": 2.14,
         "acceleration": null
@@ -187,7 +191,7 @@
           "control_mode": "impedance_d4",
           "pid": {
             "position": [1000.0, 0.0, 30.0],
-            "impedance": [1000.0, 80.0, 1.0, 0.005, 0.95]
+            "impedance": [2000.0, 80.0, 1.0, 0.005, 0.95]
           }
         },
         "xbot_gz": {

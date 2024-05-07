@@ -1,30 +1,34 @@
 {
   "header": {
-    "ID": "464",
-    "name": "concert_link_straight_30",
+    "ID": "4540",
+    "name": "concert/module_link_straight_500_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "link"
+    "type": "link",
+    "family": "alberoboticsGenB",
+    "label": "Straight Link 50 cm",
+    "addons": [],
+    "disabled": false
   },
   "bodies": [
     {
-      "ID": "464_link",
-      "mass": 1.5,
+      "ID": "454_link",
+      "mass": 1.6377171,
       "inertia": [ 
-        [4.6e-02,   0.0, 0.0],
-        [0.0,  4.6e-02,  0.0],
-        [0.0, 0.0,  3e-03]
+        [1.5464024e-01,   -3.1348037e-06,  -3.1136436e-06],
+        [-3.1348037e-06,   1.5465326e-01,  0.0],
+        [-3.1136436e-06,  0.0,  3.9667989e-03]
       ],
-      "r_com": [0.0, 0.0, 0.15],
+      "r_com": [0.0, 0.0, 0.241],
       "visual": [
         {
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.3,
+            "length": 0.5,
             "color": {
               "material_name": "grey"
             }
@@ -32,7 +36,7 @@
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
-            [0,0,1,0.15],
+            [0,0,1,0.25],
             [0,0,0,1]
           ]
         }
@@ -42,19 +46,19 @@
           "type":"cylinder",
           "parameters": {
             "radius": 0.0675,
-            "length": 0.3
+            "length": 0.5
           },
           "pose": [
             [1,0,0,0],
             [0,1,0,0],
-            [0,0,1,0.15],
+            [0,0,1,0.25],
             [0,0,0,1]
           ]
         }
       ],
       "connectors": [
         {
-          "ID": "464_connector_1",
+          "ID": "454_connector_1",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
@@ -66,11 +70,11 @@
           "size": "large"
         },
         {
-          "ID": "464_connector_2",
+          "ID": "454_connector_2",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
-            [0, 0,  1,  0.3],
+            [0, 0,  1,  0.5],
             [0, 0,  0,  1]
           ],
           "gender": "m",

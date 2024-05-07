@@ -1,0 +1,22 @@
+{
+    "header": {
+        "ID": "0001",
+        "name": "concert/drill_handle.json",
+        "date":"2022-11-16",
+        "author": "EdaordoRomiti",
+        "affiliation": "IIT",
+        "email": "edoardo.romiti@iit.it",
+        "cost": 0,
+        "type": "handle",
+        "family": "alberoboticsGenB",
+        "label": "Drill Handle",
+        "disabled": false
+    },
+    "parameters": {
+        "x_offset": 0.0,
+        "y_offset": 0.25,
+        "z_offset": -0.18,
+        "mass": 0.330,
+        "radius": 0.025
+    }
+}

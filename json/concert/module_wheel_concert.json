@@ -1,13 +1,17 @@
 {
   "header": {
-    "ID": "51",
-    "name": "concert_wheel_module",
+    "ID": "5150",
+    "name": "concert/module_wheel_concert.json",
     "date": "2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
     "email": "edoardo.romiti@iit.it",
     "cost": 0,
-    "type": "wheel"
+    "type": "wheel",
+    "family": "alberoboticsGenB",
+    "label": "Wheel Module",
+    "addons": [],
+    "disabled": false
   },
   "bodies": [
     {
@@ -159,7 +163,7 @@
           "motor_has_brake": true,
           "control_mode": "71_motor_vel_ctrl",
           "pid": {
-            "velocity": [5.0, 0.0, 0.0]
+            "velocity": [5.0, 8.0, 0.0]
           }
         },
         "xbot_gz": {

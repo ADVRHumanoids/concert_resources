@@ -1,18 +1,22 @@
 {
     "header": {
-      "ID": "354",
-      "name": "passive_end_effector_tube",
+      "ID": "3540",
+      "name": "concert/passive_end_effector_tube.json",
       "date":"2022-11-16",
       "author": "EdaordoRomiti",
       "affiliation": "IIT",
       "email": "edoardo.romiti@iit.it",
       "cost": 0,
-      "type": "end_effector"
+      "type": "end_effector",
+      "family": "alberoboticsGenB",
+      "label": "Passive End-Effector (Tube)",
+      "addons": [],
+      "disabled": false
     },
     "bodies": [
       {
         "ID": "354_link",
-        "mass": 1.638,
+        "mass": 1.125,
         "inertia": [ 
           [9.3449935e-03,  6.2762059e-07,  3.4011084e-04],
           [6.2762059e-07,  1.0036053e-02,  -9.7208479e-07],

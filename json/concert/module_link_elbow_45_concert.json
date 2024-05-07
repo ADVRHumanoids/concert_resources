@@ -1,7 +1,7 @@
 {
   "header": {
     "ID": "4840",
-    "name": "experimental/module_link_straight_60_concert.json",
+    "name": "concert/module_link_elbow_45_concert.json",
     "date":"2022-11-16",
     "author": "EdaordoRomiti",
     "affiliation": "IIT",
@@ -9,56 +9,57 @@
     "cost": 0,
     "type": "link",
     "family": "alberoboticsGenB",
-    "label": "Straight Link 60 cm",
+    "label": "Straight Elbow 45°",
     "addons": [],
-    "disabled": true
+    "disabled": false
   },
   "bodies": [
     {
-      "ID": "484_link",
-      "mass": 2.0,
+      "ID": "4840_link",
+      "mass": 4.860,
       "inertia": [ 
-        [2.4e-01,   0.0, 0.0],
-        [0.0,  2.4e-01,  0.0],
-        [0.0, 0.0,  4.5e-03]
+        [7.5244000e-02,   -1.9528631e-05,  1.0451220e-02],
+        [-1.9528631e-05,   8.2859256e-02,  3.5535489e-05],
+        [1.0451220e-02,  3.5535489e-05,  2.8318064e-02]
       ],
-      "r_com": [0.0, 0.0, 0.3],
+      "r_com": [-0.019, 0.0, 0.102],
       "visual": [
         {
-          "type":"cylinder",
+          "type":"mesh",
           "parameters": {
-            "radius": 0.0675,
-            "length": 0.6,
+            "file": "package://concert_resources/models/modular/meshes/concert/mesh_45degrees.stl",
+            "scale": [0.001, 0.001, 0.001],
             "color": {
-              "material_name": "grey"
+              "material_name": "concert_blue",
+              "rgba": [0.149, 0.259, 0.51, 1]
             }
           },
           "pose": [
-            [1,0,0,0],
-            [0,1,0,0],
-            [0,0,1,0.3],
+            [-1,0,0,0],
+            [0,-1,0,0],
+            [0,0,1,0],
             [0,0,0,1]
           ]
         }
       ],
       "collision": [
         {
-          "type":"cylinder",
+          "type":"mesh",
           "parameters": {
-            "radius": 0.0675,
-            "length": 0.6
+            "file": "package://concert_resources/models/modular/meshes/concert/simple/mesh_45degrees.stl",
+            "scale": [0.001, 0.001, 0.001]
           },
           "pose": [
-            [1,0,0,0],
-            [0,1,0,0],
-            [0,0,1,0.3],
+            [-1,0,0,0],
+            [0,-1,0,0],
+            [0,0,1,0],
             [0,0,0,1]
           ]
         }
       ],
       "connectors": [
         {
-          "ID": "484_connector_1",
+          "ID": "4840_connector_1",
           "pose": [
             [1, 0,  0,  0.0],
             [0, 1,  0,  0.0],
@@ -70,11 +71,11 @@
           "size": "large"
         },
         {
-          "ID": "484_connector_2",
+          "ID": "4840_connector_2",
           "pose": [
-            [1, 0,  0,  0.0],
+            [0.707107, 0,  -0.707107,  -0.0535],
             [0, 1,  0,  0.0],
-            [0, 0,  1,  0.6],
+            [0.707107, 0,  0.707107,  0.1745],
             [0, 0,  0,  1]
           ],
           "gender": "m",

@@ -1,13 +1,17 @@
 {
     "header": {
-      "ID": "334",
-      "name": "concert_drill_module",
+      "ID": "3340",
+      "name": "concert/module_drill_concert.json",
       "date":"2022-11-16",
       "author": "EdaordoRomiti",
       "affiliation": "IIT",
       "email": "edoardo.romiti@iit.it",
       "cost": 0,
-      "type": "drill"
+      "type": "drill",
+      "family": "alberoboticsGenB",
+      "label": "Drill",
+      "addons": ["drillbit", "handle"],
+      "disabled": false
     },
     "bodies": [
       {
@@ -68,9 +72,9 @@
           {
             "ID": "334_connector_2",
             "pose": [
-              [0, 0,  1,  0.28],
+              [0, 0,  1,  0.2815],
               [0, 1,  0,  0.0],
-              [-1, 0,  0,  0.085],
+              [-1, 0,  0,  0.0865],
               [0, 0,  0,  1]
             ],
             "gender": "e",
