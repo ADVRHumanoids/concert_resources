@@ -25,34 +25,33 @@
         "r_com": [0.0062, 0.0, 0.1028],
         "visual": [
           {
-            "type":"box",
+            "type":"mesh",
             "parameters": {
-              "size": [0.3, 0.3, 0.3],
+              "file": "package://concert_resources/models/modular/meshes/concert/spray_tool_mesh.stl",
+              "scale": [0.001, 0.001, 0.001],
               "color": {
               "material_name": "grey"
-              }
+            }
             },
             "pose": [
+              [0,-1,0,0],
               [1,0,0,0],
-              [0,1,0,0],
-              [0,0,1,0],
+              [0,0,-1,0.012],
               [0,0,0,1]
             ]
           }
         ],
         "collision": [
           {
-            "type":"box",
+            "type":"mesh",
             "parameters": {
-              "size": [0.3, 0.3, 0.3],
-              "color": {
-              "material_name": "grey"
-              }
+              "file": "package://concert_resources/models/modular/meshes/concert/spray_tool_mesh.stl",
+              "scale": [0.001, 0.001, 0.001]
             },
             "pose": [
+              [0,-1,0,0],
               [1,0,0,0],
-              [0,1,0,0],
-              [0,0,1,0],
+              [0,0,-1,0.012],
               [0,0,0,1]
             ]
           }
