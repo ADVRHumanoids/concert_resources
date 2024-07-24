@@ -11,7 +11,10 @@
       "family": "alberoboticsGenB",
       "label": "Passive End-Effector Sanding Giraffe Disk",
       "addons": [],
-      "disabled": false
+      "disabled": false,
+      "offsets": {
+        "pitch": [-0.4, -0.2]
+      }
     },
     "bodies": [
       {

@@ -11,7 +11,10 @@
       "family": "alberoboticsGenB",
       "label": "Passive End-Effector Sanding Giraffe Interface",
       "addons": [],
-      "disabled": false
+      "disabled": false,
+      "offsets": {
+        "yaw": [0, 3.141592653589793]
+      }
     },
     "bodies": [
       {
