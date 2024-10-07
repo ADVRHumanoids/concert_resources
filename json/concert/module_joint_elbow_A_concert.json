@@ -198,6 +198,10 @@
           "pid": {
             "p": 1000.0,
             "d": 60.0
+          },
+          "motor_params" : {
+            "inertia": 3.68,
+            "stiffness": 40000.0
           }
         }
       }
