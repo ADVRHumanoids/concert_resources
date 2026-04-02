@@ -3,7 +3,7 @@ project(concert_resources)
 
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY json models
+install(DIRECTORY json models module_addons
         DESTINATION share/${PROJECT_NAME}
 )
 
