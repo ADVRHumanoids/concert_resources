@@ -197,7 +197,11 @@
         "xbot_gz": {
           "pid": {
             "p": 500.0,
-            "d": 30.0
+            "d": 20.0
+          },
+          "motor_params" : {
+            "inertia": 2.07,
+            "stiffness": 40000.0
           }
         }
       }
