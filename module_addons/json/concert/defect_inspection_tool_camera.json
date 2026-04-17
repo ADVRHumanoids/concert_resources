@@ -7,13 +7,29 @@
         "affiliation": "IIT",
         "email": "edoardo.romiti@iit.it",
         "cost": 0,
-        "type": "camera",
+        "type": "realsense",
         "family": "alberoboticsGenB",
         "label": "Camera - Defect Inspection Tool",
         "disabled": false
     },
     "parameters": {
-        "xyz_offset": [0.1, 0.0, 0.2],
-        "rpy_offset": [0.0, 0.0, 0.0]
+        "camera": "d435",
+        "align_depth": true,
+        "add_plug": false,
+        "use_mesh": true,
+        "gazebo_urdf": true,
+        "enable_infrared": false,
+        "color_image": {
+            "width": 1280,
+            "height": 720,
+            "fps": 15
+        },
+        "depth_image": {
+            "width": 1280,
+            "height": 720,
+            "fps": 15
+        },
+        "xyz_offset": [0.0125, 0.0, 0.11715],
+        "rpy_offset": [0, -1.57, 0.0]
     }
 }   

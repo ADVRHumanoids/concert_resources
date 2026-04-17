@@ -9,20 +9,20 @@
       "cost": 0,
       "type": "end_effector",
       "family": "alberoboticsGenB",
-      "label": "Defect Inspection Tool V1",
-      "addons": [],
+      "label": "Defect Inspection Tool V2",
+      "addons": ["realsense"],
       "disabled": false
     },
     "bodies": [
       {
         "ID": "9000_link",
-        "mass": 2,
+        "mass": 2.42,
         "inertia": [ 
-          [0.055,  0.95e-07, -0.000086],
-          [0.95e-07,  0.055,  -0.000012],
-          [-0.000086,  -0.000012,  0.033]
+          [0.075,  -1.998e-6, -8.682e-5],
+          [-1.998e-6,  0.073,  -0.002],
+          [-8.682e-5,  -0.002,  0.037]
         ],
-        "r_com": [0.0, 0.0, 0.25],
+        "r_com": [-0.00209, 0.005908, 0.23085],
         "visual": [
           {
             "type":"mesh",
@@ -74,7 +74,7 @@
             "pose": [
               [1, 0,  0,  0.0],
               [0, 1,  0,  0.0],
-              [0, 0,  1,  0.135],
+              [0, 0,  1,  0.432],
               [0, 0,  0,  1]
             ],
             "gender": "e",
