@@ -1,0 +1,127 @@
+{
+    "header": {
+      "ID": "9000",
+      "name": "experimental/module_weld_torch_dummy.json",
+      "date":"2026-04-27",
+      "author": "ArturoLaurenzi",
+      "affiliation": "IIT",
+      "email": "arturo.laurenzi@iit.it",
+      "cost": 0,
+      "type": "end_effector",
+      "family": "alberoboticsGenB",
+      "label": "Weld Torch (Dummy)",
+      "addons": [],
+      "disabled": false
+    },
+    "bodies": [
+      {
+        "ID": "9000_link",
+        "mass": 2.42,
+        "inertia": [ 
+          [0.075,  -1.998e-6, -8.682e-5],
+          [-1.998e-6,  0.073,  -0.002],
+          [-8.682e-5,  -0.002,  0.037]
+        ],
+        "r_com": [-0.00209, 0.005908, 0.23085],
+        "visual": [
+          {
+            "type":"mesh",
+            "parameters": {
+              "file": "package://concert_resources/models/modular/meshes/concert/weld_torch_k2655_2.stl",
+              "scale": [0.001, 0.001, 0.001],
+              "color": {
+              "material_name": "grey"
+            }
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0],
+              [0,0,0,1]
+            ]
+          }
+        ],
+        "collision": [
+          {
+            "type":"mesh",
+            "parameters": {
+              "file": "package://concert_resources/models/modular/meshes/concert/simple/weld_torch_k2655_2_part_0.stl",
+              "scale": [0.001, 0.001, 0.001]
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0],
+              [0,0,0,1]
+            ]
+          },
+          {
+            "type":"mesh",
+            "parameters": {
+              "file": "package://concert_resources/models/modular/meshes/concert/simple/weld_torch_k2655_2_part_1.stl",
+              "scale": [0.001, 0.001, 0.001]
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0],
+              [0,0,0,1]
+            ]
+          },
+          {
+            "type":"mesh",
+            "parameters": {
+              "file": "package://concert_resources/models/modular/meshes/concert/simple/weld_torch_k2655_2_part_2.stl",
+              "scale": [0.001, 0.001, 0.001]
+            },
+            "pose": [
+              [1,0,0,0],
+              [0,1,0,0],
+              [0,0,1,0],
+              [0,0,0,1]
+            ]
+          }
+        ],
+        "connectors": [
+          {
+            "ID": "9000_connector_1",
+            "pose": [
+              [0,  0, -1,  0.0],
+              [1,  0,  0,  0.0],
+              [0, -1,  0,  0.0],
+              [0,  0,  0,  1.0]
+            ],
+            "gender": "f",
+            "type": "clamp",
+            "size": "large"
+          },
+          {
+            "ID": "9000_connector_2",
+            "pose": [
+              [0.4975711,  0.0000000, -0.8674232, -0.17],
+              [   0.0000000,  1.0000000,  0.0000000,   0.0],
+              [   0.8674232,  0.0000000,  0.4975711,  0.42],
+              [0, 0,  0,  1]
+            ],
+            "gender": "e",
+            "type": "eef",
+            "size": "large"
+          }
+        ],
+        "gazebo": [
+          {
+            "mu1": 0.2,
+            "mu2": 0.2,
+            "kp": 100000000.0,
+            "kd": 1.0,
+            "maxVel": 0.0,
+            "minDepth": 0.0001,
+            "material": "Gazebo/PurpleGlow ",
+            "selfCollide": true
+          }
+        ]
+      }
+    ],
+    "joints": []
+  }
+  
