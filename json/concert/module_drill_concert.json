@@ -10,7 +10,7 @@
       "type": "drill",
       "family": "alberoboticsGenB",
       "label": "Drill",
-      "addons": ["drillbit", "handle"],
+      "addons": ["drillbit", "handle", "realsense"],
       "disabled": false
     },
     "bodies": [
@@ -96,6 +96,9 @@
         ]
       }
     ],
-    "joints": []
+    "joints": [],
+    "sensors": [
+      "concert/drill_camera.json"
+     ]
   }
   

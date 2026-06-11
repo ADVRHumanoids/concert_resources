@@ -1,7 +1,7 @@
 {
     "header": {
         "ID": "3740",
-        "name": "concert/defect_inspection_tool_camera.json",
+        "name": "concert/D435_camera_front.json",
         "date": "2026-03-26",
         "author": "EdoardoRomiti",
         "affiliation": "IIT",
@@ -9,10 +9,12 @@
         "cost": 0,
         "type": "realsense",
         "family": "alberoboticsGenB",
-        "label": "Camera - Defect Inspection Tool",
+        "label": "Mobile Base Camera Front",
         "disabled": false
     },
     "parameters": {
+        "camera_name": "D435_camera_front",
+        "serial_number": "236422072244",
         "camera": "d435",
         "align_depth": false,
         "add_plug": false,
@@ -29,7 +31,7 @@
             "height": 240,
             "fps": 6
         },
-        "xyz_offset": [0.0125, 0.0, 0.11715],
-        "rpy_offset": [0, -1.57, 0.0]
+        "xyz_offset": [0.402872, 0.0, -0.078218],
+        "rpy_offset": [0, 0.261799, 0.0]
     }
 }   
