@@ -19,6 +19,7 @@
         "use_mesh": true,
         "enable_infrared": false,
         "publish_pointcloud": true,
+        "publish_tf": "${ADD_DRILL_CAMERA}",
         "color_image": {
             "width": 424,
             "height": 240,
