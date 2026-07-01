@@ -1,0 +1,21 @@
+{
+    "header": {
+        "ID": "3740",
+        "name": "concert/vectornav_imu.json",
+        "date": "2026-03-26",
+        "author": "EdoardoRomiti",
+        "affiliation": "IIT",
+        "email": "edoardo.romiti@iit.it",
+        "cost": 0,
+        "type": "imu",
+        "variant": "vectornav",
+        "family": "alberoboticsGenB",
+        "label": "Mobile Base IMU",
+        "disabled": false
+    },
+    "parameters": {
+        "imu_name": "vectornav_imu",
+        "xyz_offset": [-0.444, -0.001, 0.0],
+        "rpy_offset": [3.14159 , 0.0, 0.0]
+    }
+}   
