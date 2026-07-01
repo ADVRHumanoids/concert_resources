@@ -10,7 +10,7 @@
     "type": "mobile_base",
     "family": "alberoboticsGenB",
     "label": "Mobile Platform",
-    "addons": ["realsense", "camera"],
+    "addons": ["camera", "imu"],
     "disabled": false
   },
   "bodies": [
@@ -147,6 +147,7 @@
   "joints": [],
   "sensors": [
     "concert/D435_camera_front.json",
-    "concert/D435_camera_back.json"
+    "concert/D435_camera_back.json",
+    "concert/vectornav_imu.json"
   ]
 }

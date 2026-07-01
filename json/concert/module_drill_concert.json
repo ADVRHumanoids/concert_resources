@@ -10,7 +10,7 @@
       "type": "drill",
       "family": "alberoboticsGenB",
       "label": "Drill",
-      "addons": ["drillbit", "handle", "realsense"],
+      "addons": ["drillbit", "handle", "camera"],
       "disabled": false
     },
     "bodies": [

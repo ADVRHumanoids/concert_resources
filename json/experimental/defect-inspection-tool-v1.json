@@ -10,7 +10,7 @@
       "type": "end_effector",
       "family": "alberoboticsGenB",
       "label": "Defect Inspection Tool V2",
-      "addons": ["realsense"],
+      "addons": ["camera"],
       "disabled": false
     },
     "bodies": [
