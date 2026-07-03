@@ -10,7 +10,7 @@
     "type": "mobile_base",
     "family": "alberoboticsGenB",
     "label": "Mobile Platform",
-    "addons": ["camera", "imu"],
+    "addons": ["camera", "imu", "lidar"],
     "disabled": false
   },
   "bodies": [
@@ -148,6 +148,8 @@
   "sensors": [
     "concert/D435_camera_front.json",
     "concert/D435_camera_back.json",
+    "concert/VLP16_lidar_front.json",
+    "concert/VLP16_lidar_back.json",
     "concert/vectornav_imu.json"
   ]
 }

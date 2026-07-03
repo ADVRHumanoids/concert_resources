@@ -1,0 +1,30 @@
+{
+    "header": {
+        "ID": "3740",
+        "name": "concert/VLP16_lidar_front.json",
+        "date": "2026-03-26",
+        "author": "EdoardoRomiti",
+        "affiliation": "IIT",
+        "email": "edoardo.romiti@iit.it",
+        "cost": 0,
+        "type": "lidar",
+        "variant": "velodyne",
+        "family": "alberoboticsGenB",
+        "label": "Mobile Base Lidar Front",
+        "disabled": false
+    },
+    "parameters": {
+        "lidar_name": "VLP16_lidar_front",
+        "hz": 10,
+        "lasers": 16,
+        "samples": 440,
+        "collision_range": 0.3,
+        "min_range": 0.9,
+        "max_range": 130.0,
+        "noise":0.008,
+        "min_angle": -1.4,
+        "max_angle": 3.2,
+        "xyz_offset": [0.5305, 0.315, -0.0627],
+        "rpy_offset": [3.14159, 0.0, 1.570796]
+    }
+}   
